@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>perfil</h1>
+    <!-- imagen con enlace externo-->
+    <a href="https://github.com/JDGamingPS?tab=repositories">
+        <img src="foto.jpg" alt="foto de jorge">
+    </a>
+    
+    <h2>1. Datos personales</h2>
+    <p>NOMBRE: Jorge Pacosillo</p>
+    <p>CI.: 7082023</p>
+    <P>FECHA DE NACIMIENTO: 01/10/1995</P>
+    <P>DIRECCION: Zona Villa tunari nro 8230</P>
+    <p>CELULAR: 73078276</p>
+    <P>CORREO ELECTRONICO: jorgedanielpacosillo@gmail.com</P>
+    <p>GitHub:  <a href="">
+                    <button>Jorge Daniel</button>
+                </a> </p>
+    <h2>2. Informacion academica</h2>
+    <p>diploma de bachiller</p>
+    <p>egresado de la carrera de informatica UMSA</p>
+
+    <h2>3. Conocimentos de informatica</h2>
+    <!-- es una lista-->
+    <ul>
+        <li>Kotlin</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>GitHub</li>
+    </ul>
+
+    <h2>4. Certificados</h2>
+
+    <!-- tablas -->
+    <table border="1">
+        <!--filas -->
+            <!-- columnas con encabezados -->
+            <caption>Certificados o cursos</caption> <!-- <- es el encabezado de las tablas-->
+            <!-- Encabezados de la tabla-->
+            <thead>
+                <tr>
+                    <th>Certificados</th>
+                    <th>Fecha</th>
+                    <th>Ref</th>
+                </tr>
+            </thead>
+
+            <!-- es para poner los encabezados abajo-->
+            <tfoot>
+                <tr>
+                    <th>Certificados</th>
+                    <th>Fecha</th>
+                    <th>Ref</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>  programacion de android desde 0 </td>
+                    <td>  01/10/2022 </td>
+                    <td> www.udemy.com </td>
+                </tr>
+
+                <tr>
+                    <td> github </td>
+                    <td> 2-09-2022 </td>
+                    <td> Alex </td>
+                </tr>
+            </tbody>
+    </table>
+
+<br>
+<hr>
+<h2>Formularios</h2>
+
+<!--
+    input id sirve para relacionar con label for
+-->
+    <form action="enviando.html" method="GET">
+        <label for="nombre">Nombre: </label>
+        <input name="resibeNombre" id="nombre" type="text" placeholder="ingrese su nombre">
+    
+
+        <br>
+
+        <label for="apellido">Apellido: </label>
+        <input name="resibeApellido" id="apellido" type="text" placeholder="ingrese su nombre">
+        
+        <br>
+        
+        <button type="submit"> Agregar</button> <!-- el boton procesara el formulario-->
+    </form>
+
+
+    <p>este es un parrafo</p>
+    <b>este es un texto en negritas</b>
+    <i>Cursivas</i>
+    <p>
+        este es otro parrafo
+    </p>
+    <b>este es un <i>texto</i> em negritas</b>
+
+    <p>
+        <s>Texto tachado</s>
+    </p>
+
+
+    <strong>Texto importante</strong>  
+    
+</body>
+</html>
